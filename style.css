@@ -13,7 +13,7 @@
 
 body{
     display: grid; /*grid vai separando os elementos na tela */
-     grid-template-columns: 50% 50%; /* grid vai separando os elementos um ao lado do outro */
+    grid-template-columns: 50% 50%; /*grid vai separando os elementos um ao lado do outro */
      overflow: hidden;
      overflow-y: hidden;
      height: 100vh;
@@ -36,12 +36,6 @@ img{
     color: var(--cor-secundaria);
     font-size: 4.5rem;
     font-family: "Montserrat", sans-serif;
-    /* font-optical-sizing: auto; */
-<<<<<<< HEAD
-    /* font-size: 6.5rem;  */
-    
-=======
->>>>>>> af72efed314874cf831412c2d1e28c925fb01073
 }
 .Titulo_secundario{
     color: var(--cor-secundaria);
@@ -55,29 +49,31 @@ img{
     border: 2px solid var(--cor-secundaria);
     padding: 0.5em;
     color: var(--cor-principal);
-    /* display: block; */
     text-align: center;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 1.75rem;
     width: 50vh;
     height: 5vh;
-<<<<<<< HEAD
 }
-/* Configuração para telas menores
+/* Configuração para telas menores */
 @media screen and (max-width: 768px) {
     body {
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 0px;
-        padding-left: 2rem;
+        padding-right: 0px;
         overflow: auto;
         overflow-y: auto;
+        width: 100vw;
+    }
+    img{
         width: 100%;
     }
 
     .Informacao {
-        padding: 0%;
+        padding: 2rem;
+        padding-left: 2rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -92,9 +88,12 @@ img{
     }
 
     h1 {
-        font-size: 1.8rem; /* Ajuste proporcional 
+        font-size: 1.8rem; /* Ajuste proporcional */
     }
 
-=======
->>>>>>> af72efed314874cf831412c2d1e28c925fb01073
-} */
+    .Botao{
+        width: 40vh;
+        height: 4vh;
+    }
+
+}
