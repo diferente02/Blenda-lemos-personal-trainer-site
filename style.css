@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    --cor-principal: #9073f9;
+    --cor-principal: #73A6F9;
     --cor-secundaria: #ffff;
 }
+
 *{
     margin:0;
     padding:0;
@@ -15,32 +16,31 @@ body{
      grid-template-columns: 50% 50%; /* grid vai separando os elementos um ao lado do outro */
      overflow: hidden;
      overflow-y: hidden;
+     height: 100vh;
 }
-<<<<<<< HEAD
-h1{
-    text-align: center;
-    padding: 2rem;
+img{
+    width: 100%;
+    height: 100%;
 }
->>>>>>> af72efed314874cf831412c2d1e28c925fb01073
 
-.img{
- height: 10px;   
-}
 .Informacao{
-    padding-left: 10rem;
+    /* padding-left: 10rem; */
+    
     padding-top: 2rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 3rem;
 }
 .Titulo{
     color: var(--cor-secundaria);
+    font-size: 4.5rem;
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
+    /* font-optical-sizing: auto; */
 <<<<<<< HEAD
-    font-size: 4.5rem; 
+    /* font-size: 6.5rem;  */
+    
 =======
-    font-size: 72px; 
 >>>>>>> af72efed314874cf831412c2d1e28c925fb01073
 }
 .Titulo_secundario{
@@ -63,7 +63,7 @@ h1{
     height: 5vh;
 <<<<<<< HEAD
 }
-/* Configuração para telas menores */
+/* Configuração para telas menores
 @media screen and (max-width: 768px) {
     body {
         display: flex;
@@ -92,9 +92,9 @@ h1{
     }
 
     h1 {
-        font-size: 1.8rem; /* Ajuste proporcional */
+        font-size: 1.8rem; /* Ajuste proporcional 
     }
 
 =======
 >>>>>>> af72efed314874cf831412c2d1e28c925fb01073
-}
+} */
