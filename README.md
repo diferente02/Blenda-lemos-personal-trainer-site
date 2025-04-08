@@ -17,6 +17,7 @@ Clone o repositório:
 ```bash
 git clone https://github.com/seu-usuario/blenda-lemos-site.git
 cd blenda-lemos-site
+```
 
 ## Uso 📱
 - O site apresenta:
