@@ -17,3 +17,30 @@ Clone o repositório:
 ```bash
 git clone https://github.com/seu-usuario/blenda-lemos-site.git
 cd blenda-lemos-site
+
+## Uso 📱
+- O site apresenta:
+
+- Uma imagem em tela cheia da Blenda Lemos.
+
+- Um título chamativo com chamada para ação.
+
+- Um botão que redireciona diretamente para o WhatsApp com uma mensagem pré-definida.
+
+.. image:: https://user-images.githubusercontent.com/your-gif-here.gif
+:alt: Preview do site
+
+📲 Totalmente responsivo: se adapta para mobile com ajustes de layout, tamanhos de texto e botão.
+
+
+## Por que? 🤔
+ - Criado para divulgar o trabalho da personal Blenda Lemos.
+
+ - Oferece um contato direto e rápido com clientes.
+
+ - Design simples, direto e visualmente atrativo.
+
+ - Responsivo para dispositivos móveis.
+
+## Licença ⚖️
+- Este projeto é de uso pessoal.
